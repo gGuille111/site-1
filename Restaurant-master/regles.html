@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>The Padel Club</title>
+
+  <!-- Ordre des CSS (important) -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+  <link rel="stylesheet" href="css/style-portfolio.css">
+  <link rel="stylesheet" href="css/picto-foundry-food.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    /* Style galerie vidéos */
+    .padel-videos {
+      text-align: center;
+      margin-top: 60px;
+    }
+    .padel-videos h2 {
+      font-size: 40px;
+      margin-bottom: 30px;
+      font-family: 'Playball', cursive;
+    }
+    .video-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      padding: 20px;
+    }
+    .video-card {
+      width: 260px;
+      background: #fff;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .video-card:hover {
+      transform: scale(1.05);
+    }
+    .video-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .video-card h3 {
+      margin-top: 12px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">The Padel Club</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav main-nav clear navbar-right">
+          <li><a class="color_animation" href="index.html#top">BIENVENUE</a></li>
+          <li><a class="color_animation" href="index.html#story">À PROPOS</a></li>
+          <li><a class="color_animation" href="index.html#pricing">RAQUETTES</a></li>
+          <li><a class="color_animation" href="index.html#beer">BAR</a></li>
+          <li><a class="color_animation" href="index.html#bread">RESTAURANT</a></li>
+          <li><a class="color_animation" href="index.html#reservation">RÉSERVATION</a></li>
+          <li><a class="color_animation" href="regles.html">RÈGLES</a></li>
+          <li><a class="color_animation" href="index.html#contact">CONTACT</a></li>
+          <li><a class="color_animation" href="cv.html" target="_blank">CV</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- TITRE PAGE -->
+  <section id="rules" class="container" style="margin-top:120px;">
+  <h1 class="rules-title" style="font-family:'Playball', cursive; font-size:48px; margin-bottom:30px;">
+  Règles Officielles Du Padel
+</h1>
+    <hr>
+  </section>
+
+  <!-- GALERIE VIDÉOS -->
+  <section class="padel-videos">
+    <h2>Apprendre les Coups du Padel</h2>
+
+    <div class="video-gallery">
+
+      <!-- Comment jouer au padel -->
+      <div class="video-card">
+        <a href="https://www.youtube.com/watch?v=-vKYAlHE0T0" target="_blank">
+          <img src="images/regles_padel.jpg" alt="Comment jouer au padel">
+          <h3>Comment jouer au padel 🎾</h3>
+        </a>
+      </div>
+
+      <!-- Coup droit -->
+      <div class="video-card">
+        <a href="https://www.youtube.com/shorts/FZ4efx1UVXY" target="_blank">
+          <img src="images/CoupDroit.jpg" alt="Coup droit padel">
+          <h3>Coup droit</h3>
+        </a>
+      </div>
+
+      <!-- Revers -->
+      <div class="video-card">
+        <a href="https://www.youtube.com/shorts/tynGh64GDRM" target="_blank">
+          <img src="images/revers.jpg" alt="Revers padel">
+          <h3>Revers</h3>
+        </a>
+      </div>
+
+      <!-- Service -->
+      <div class="video-card">
+        <a href="https://www.youtube.com/shorts/XeeastuqhQc" target="_blank">
+          <img src="images/service.jpg" alt="Service padel">
+          <h3>Service</h3>
+        </a>
+      </div>
+
+      <!-- Volée -->
+      <div class="video-card">
+        <a href="https://www.youtube.com/shorts/XeeastuqhQc" target="_blank">
+          <img src="images/volee.jpg" alt="Volée padel">
+          <h3>Volée</h3>
+        </a>
+      </div>
+
+      <!-- Lob -->
+      <div class="video-card">
+        <a href="https://www.youtube.com/shorts/N0yd3WtPx60" target="_blank">
+          <img src="images/lobe.jpg" alt="Lob padel">
+          <h3>Lob</h3>
+        </a>
+      </div>
+
+      <!-- Smash -->
+      <div class="video-card">
+        <a href="https://www.youtube.com/watch?v=Zf4nT3Vrd7w" target="_blank">
+          <img src="images/smash.jpg" alt="Smash padel">
+          <h3>Smash</h3>
+        </a>
+      </div>
+
+      <!-- Bandeja -->
+      <div class="video-card">
+        <a href="https://www.youtube.com/watch?v=eYvND8YaRyA" target="_blank">
+          <img src="images/bandeja.jpg" alt="Bandeja padel">
+          <h3>Bandeja</h3>
+        </a>
+      </div>
+
+      <!-- Vibora -->
+      <div class="video-card">
+        <a href="https://www.youtube.com/watch?v=JVz8SBrXLBk" target="_blank">
+          <img src="images/vibora.jpg" alt="Vibora padel">
+          <h3>Vibora</h3>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="background-color:#222; color:white; text-align:center; padding:20px; margin-top:60px;">
+    © 2025 The Padel Club — Tous droits réservés
+  </footer>
+
+  <!-- JS -->
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
